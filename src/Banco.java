@@ -21,4 +21,10 @@ public class Banco {
 		this.contas = contas;
 	}
 
+	public void listarClientes(List<Conta>contas){
+		for(Conta conta: contas){
+			System.out.println(conta);
+		}
+	}
+
 }
